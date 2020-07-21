@@ -79,12 +79,12 @@ This means that diameter cannot be negative either (and setting diameter to a ne
 
 Here are some hints you can use when you get stuck (hover over links to see what they're about):
 
-    Computing the area of a circle
-    Creating a class
-    String representation of a class
-    math things
-    Bonus 1: Making an auto-updating attribute
-    Bonus 2: Raising exceptions
+- Computing the area of a circle
+- Creating a class
+- String representation of a class
+- math things
+- [Bonus 1: Making an auto-updating attribute](https://www.youtube.com/watch?v=jCzT9XFZ5bw)
+- Bonus 2: Raising exceptions
 
 ## Tests
 
