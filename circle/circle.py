@@ -3,7 +3,19 @@ import cmath
 
 class Circle:
     def __init__(self, radius: float = 1):
-        self.radius: float = radius
+
+        self._radius: float = radius
+
+    @property
+    def radius(self) -> float:
+        return self._radius
+
+    @radius.setter
+    def radius(self, new_radius):
+        if new_radius < 0:
+            raise ValueError("Radius cannot be negative")
+        else:
+            self._radius = new_radius
 
     @property
     def diameter(self) -> float:
@@ -11,6 +23,8 @@ class Circle:
 
     @diameter.setter
     def diameter(self, diameter) -> None:
+        if diameter < 0:
+            raise ValueError("Diameter cannot be negative")
         self.radius = diameter/2
 
     @property
