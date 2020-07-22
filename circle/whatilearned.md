@@ -29,6 +29,8 @@ This one was TOUGH. I spent over an hour trying to figure it out. I couldn't jus
 
 ## From Trey's Official Solution
 
+[Link to commit with mods from Trey's official solution](https://github.com/djotaku/pythonmorsels/blob/a152d792465f77b52c670bf1488a2857034f8efa/circle/circle.py)
+
 - It turns out I didn't need the diameter negative check (lines 26 and 27 in the [Bonus #3 solution](https://github.com/djotaku/pythonmorsels/blob/dd44a8abd95bc18f4e458a5807e3ee7bfd6a7fd7/circle/circle.py)) because the radius negative check would have handled that.
 
 - I didn't need to make the area setter in order to raise the error. That error would have been raised simply by not creating a setter.
