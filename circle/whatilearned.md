@@ -26,3 +26,11 @@ How to use @method_name.setter. I wonder if I could stack this with the @propert
 
 
 This one was TOUGH. I spent over an hour trying to figure it out. I couldn't just adapt what I did for Bonus 2 because it would end up causing recursion. So the trick I learned wasn't linked in Trey's hints. It was here: https://www.programiz.com/python-programming/property . Basically you can do self._radius in init. Then you create the radius method and that will reference the variable name from the init.
+
+## From Trey's Official Solution
+
+- It turns out I didn't need the diameter negative check (lines 26 and 27 in the [Bonus #3 solution](https://github.com/djotaku/pythonmorsels/blob/dd44a8abd95bc18f4e458a5807e3ee7bfd6a7fd7/circle/circle.py)) because the radius negative check would have handled that.
+
+- I didn't need to make the area setter in order to raise the error. That error would have been raised simply by not creating a setter.
+
+- I didn't need to change self.radius to self._radius in the init. Only had to use it for the @property method. 
