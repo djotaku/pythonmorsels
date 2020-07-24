@@ -49,8 +49,8 @@ Hints for when you get stuck (hover over links to see what they're about):
 - Iterating lists with and without indexes
 - [Multiple assignment might come in handy](https://treyhunner.com/2018/03/tuple-unpacking-improves-python-code-readability/)
 - [A special syntax for creating new lists from old lists](https://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/)
-- Accepting any number of arguments to a function
-- More discussion on accepting any number of arguments
+- [Accepting any number of arguments to a function](https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/#Asterisks_for_packing_arguments_given_to_function)
+- [More discussion on accepting any number of arguments](https://stackoverflow.com/questions/36901/what-does-double-star-asterisk-and-star-asterisk-do-for-parameters/36908#36908)
 - Raising an exception in Python
 
 ## Tests
