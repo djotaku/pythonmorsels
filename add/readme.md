@@ -47,8 +47,8 @@ ValueError: Given matrices are not the same size.
 Hints for when you get stuck (hover over links to see what they're about):
 
 - Iterating lists with and without indexes
-- Multiple assignment might come in handy
-- A special syntax for creating new lists from old lists
+- [Multiple assignment might come in handy](https://treyhunner.com/2018/03/tuple-unpacking-improves-python-code-readability/)
+- [A special syntax for creating new lists from old lists](https://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/)
 - Accepting any number of arguments to a function
 - More discussion on accepting any number of arguments
 - Raising an exception in Python
