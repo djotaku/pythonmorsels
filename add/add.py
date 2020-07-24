@@ -5,10 +5,10 @@ def add(matrix1, matrix2):
         for val1, val2 in zip(list1, list2)
     ]
     print(summed)
+    final_list = []
     for list1, list2 in zip(matrix1, matrix2):
-
-        for val1, val2 in zip(list1, list2):
-            print(val1+val2)
+        final_list.append([val1 + val2 for val1, val2 in zip(list1, list2)])
+    print(final_list)
 
     return list(zip(matrix1, matrix2))
 
