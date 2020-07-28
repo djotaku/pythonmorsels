@@ -6,7 +6,7 @@ As I thought, the base solution was incredibly easy for me. I'd already done sim
 
 # Bonus 1 
 
-thoughts
+Once again, this one was pretty simple because I already knew about [argparse](https://docs.python.org/3/library/argparse.html).
 
 # Bonus 2 
 
