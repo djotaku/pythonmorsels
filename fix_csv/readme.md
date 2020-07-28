@@ -57,7 +57,7 @@ This second bonus is a bit trickier and I don't expect it to work correctly for 
 - Short video on working with CSV files in Python
 - Restricting the number of command-line arguments
 - Parsing command-line arguments more robustly
-- Automatically detecting the type of a CSV file
+- [Automatically detecting the type of a CSV file](https://docs.python.org/3/library/csv.html#csv.Sniffer)
 
 ## Tests
 

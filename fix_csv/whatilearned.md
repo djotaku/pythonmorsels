@@ -10,4 +10,4 @@ Once again, this one was pretty simple because I already knew about [argparse](h
 
 # Bonus 2 
 
-thoughts
+For this one I had to go to the [final hint](https://docs.python.org/3/library/csv.html#csv.Sniffer) to laern about Sniffers. Once I did that, it was pretty simple. 

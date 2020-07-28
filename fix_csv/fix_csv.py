@@ -18,7 +18,13 @@ if args.in_quote:
     infile_quote = args.in_quote
 
 with open(args.original) as csv_file:
-    original_input = list(csv.reader(csv_file, delimiter=infile_delimiter, quotechar=infile_quote))
+    original_input = None
+    if args.in_delimiter or args.in_quote:
+        original_input = list(csv.reader(csv_file, delimiter=infile_delimiter, quotechar=infile_quote))
+    else:
+        dialect = csv.Sniffer().sniff(csv_file.read())
+        csv_file.seek(0)
+        original_input = list(csv.reader(csv_file, dialect))
 
 with open(args.destination, 'w') as csv_file:
     output_writer = csv.writer(csv_file, delimiter=',')
