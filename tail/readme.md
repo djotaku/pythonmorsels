@@ -34,11 +34,11 @@ See if you can make your function relatively memory efficient (if you're looping
 
 ## Hints
 
-    Getting the last n items from a sequence
-    Turning iterables into lists
-    Bonus 1: conditionals in Python
-    How to loop over any iterable in Python
-    A data structure that could help with bonus 2
+- Getting the last n items from a sequence
+- Turning iterables into lists
+- Bonus 1: conditionals in Python
+- How to loop over any iterable in Python
+- [A data structure that could help with bonus 2](A data structure that could help with bonus 2)
 
 ## Tests
 
