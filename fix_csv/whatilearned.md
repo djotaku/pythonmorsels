@@ -17,3 +17,7 @@ Once again, this one was pretty simple because I already knew about [argparse](h
 [Link to Bonus 2 solution](https://github.com/djotaku/pythonmorsels/blob/e7f222e0ede2dd15e8987924a77fd3853e5abbda/fix_csv/fix_csv.py)
 
 For this one I had to go to the [final hint](https://docs.python.org/3/library/csv.html#csv.Sniffer) to laern about Sniffers. Once I did that, it was pretty simple. 
+
+# From Trey's Official Solution
+
+Nothing this week
