@@ -38,7 +38,7 @@ See if you can make your function relatively memory efficient (if you're looping
 - Turning iterables into lists
 - Bonus 1: conditionals in Python
 - How to loop over any iterable in Python
-- [A data structure that could help with bonus 2](A data structure that could help with bonus 2)
+- [A data structure that could help with bonus 2](https://pymotw.com/3/collections/deque.html#constraining-the-queue-size)
 
 ## Tests
 
