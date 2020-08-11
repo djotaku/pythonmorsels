@@ -20,4 +20,4 @@ I learned about deques. They're really neat lists where you can limit the max si
 
 ## What I learned from Trey's Official Solution
 
-We'll see...
+I could have just done list(deque(iterable,maxlen=n)) instead of using the for-loop to make the deque.
