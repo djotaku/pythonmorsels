@@ -12,4 +12,8 @@ Once again, I knew about lower. But I was pleasantly surprised that I could chai
 
 ## Bonus 2
 
-My initial guess was that Bonus 2 would probably hinge around regular expressions. But I clicked on the hint link to see if there was some cool built-in function of strings. Turns out I was right! I was having issues with it splitting up "don't" So I had to setup the regular expression to only look for special characters at the beginning and end of a word.
+My initial guess was that Bonus 2 would probably hinge around regular expressions. But I clicked on the hint link to see if there was some cool built-in function of strings. Turns out I was right! I was having issues with it splitting up "don't" So I had to setup the regular expression to only look for special characters at the beginning and end of a word. The solution I came up with took me a while to get the regular expression working. It's definitely not elegant, so I'm very curious to see what his solution ends up being.
+
+## What I learned from Trey's Solution
+
+TBD
