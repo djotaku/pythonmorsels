@@ -40,7 +40,7 @@ Hints for when you get stuck (hover over links to see what they're about):
 - Checking existence of a given word (key) in dictionary
 - Initializing a key to a unique default value in a dictionary
 - Various techniques for counting words in a sentence
-- Ignoring punctuation marks while extracting words
+- [Ignoring punctuation marks while extracting words](https://stackoverflow.com/questions/37543724/python-regex-for-finding-all-words-in-a-string/37543765#37543765)
 
 ## Tests
 

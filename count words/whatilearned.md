@@ -8,4 +8,8 @@ Then, once I had the right package, my first attempt at the solution actually br
 
 ## Bonus 1
 
+Once again, I knew about lower. But I was pleasantly surprised that I could chain that with split rather than have to update the variable twice.
+
 ## Bonus 2
+
+My initial guess was that Bonus 2 would probably hinge around regular expressions. But I clicked on the hint link to see if there was some cool built-in function of strings. Turns out I was right! I was having issues with it splitting up "don't" So I had to setup the regular expression to only look for special characters at the beginning and end of a word.
