@@ -22,4 +22,15 @@ My initial guess was that Bonus 2 would probably hinge around regular expression
 
 ## What I learned from Trey's Solution
 
-TBD
+This time, while I was able to get the solution and bonus 1 pretty easily, it turns out that my code was more verbose than it needed to be. The only confusing part about his solution is that he claims I could just do "split" without the stuff I have in the parenthesis. I wonder why it didn't seem to work for me. That aside, what's interesting is that, just like deque last week, I don't actually need to make use of a for-loop. The Counter function will auto-iterate for me. (Which is weird, because the documentation shows a for-loop, but maybe that's just to make things more clear?) 
+
+A more important thing is the Regular Expression part (I really should start going through at least one of my many RE books from O'Reilly). Instead of trying to eliminate the prefix and suffix punctuation, I should have just done:
+
+```
+r"\b[\w'-]+\b"
+```
+
+This means look for words, apostrophes, and dashes and get rid of whatever's outside the word. So this gets by the problem I was having at first with the word "don't"
+
+So here is the final solution - a mashup of my code and Trey's:
+
