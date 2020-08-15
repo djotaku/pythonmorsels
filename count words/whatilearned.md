@@ -34,3 +34,4 @@ This means look for words, apostrophes, and dashes and get rid of whatever's out
 
 So here is the final solution - a mashup of my code and Trey's:
 
+[After Trey's Solution](https://github.com/djotaku/pythonmorsels/blob/536dbd42077857d9ed00408988d415e3cab41c20/count%20words/count.py)
