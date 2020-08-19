@@ -4,6 +4,12 @@ class Point:
         self.y = y
         self.z = z
 
+    def __add__(self, other):
+        return Point(self.x+other.x, self.y+other.y, self.z+other.z)
+
+    def __sub__(self, other):
+        return Point(self.x-other.x, self.y-other.y, self.z-other.z)
+
     def __eq__(self, other):
         if other.x == self.x and other.y == self.y and other.z == self.z:
             return True
