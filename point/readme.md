@@ -56,7 +56,7 @@ Hints for when you get stuck (hover over links to see what they're about):
 - Customizing string representations
 - Comparing equality of tuples
 - Adding class instances
-- Allowing objects to be multiplied by numbers
+- [Allowing objects to be multiplied by numbers](http://www.openbookproject.net/thinkcs/python/english2e/ch15.html#operator-overloading)
 - Handling operations with arbitrary types
 - Multiple assignment and tuple unpacking
 - Creating objects that work with multiple assignment
