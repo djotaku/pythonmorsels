@@ -10,6 +10,9 @@ class Point:
     def __sub__(self, other):
         return Point(self.x-other.x, self.y-other.y, self.z-other.z)
 
+    def __mul__(self, other):
+        return Point(other*self.x, other*self.y, other*self.z)
+
     def __rmul__(self, other):
         return Point(other*self.x, other*self.y, other*self.z)
 
@@ -17,6 +20,11 @@ class Point:
         if other.x == self.x and other.y == self.y and other.z == self.z:
             return True
         return False
+
+    def __iter__(self):
+        yield self.x
+        yield self.y
+        yield self.z
 
     def __repr__(self):
         return f"Point(x={self.x}, y={self.y}, z={self.z})"

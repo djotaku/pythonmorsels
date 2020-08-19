@@ -59,7 +59,7 @@ Hints for when you get stuck (hover over links to see what they're about):
 - [Allowing objects to be multiplied by numbers](http://www.openbookproject.net/thinkcs/python/english2e/ch15.html#operator-overloading)
 - Handling operations with arbitrary types
 - Multiple assignment and tuple unpacking
-- Creating objects that work with multiple assignment
+- [Creating objects that work with multiple assignment](https://treyhunner.com/2018/06/how-to-make-an-iterator-in-python/#Generators_can_help_when_making_iterables_too)
 
 Tests
 
