@@ -8,6 +8,8 @@ Base problem was pretty easy. I got it in one because I've already done all of t
 
 ## Bonus 1
 
+I took a wild guess that if there was __eq__ then there would probably be __add__ and __sub__ and I was right.
+
 ## Bonus 2
 
 ## Bonus 3
