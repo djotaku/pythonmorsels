@@ -10,4 +10,4 @@ class Point:
         return False
 
     def __repr__(self):
-        return f"Point(x={self.x}, y={self.y}, z={self.z}"
+        return f"Point(x={self.x}, y={self.y}, z={self.z})"
