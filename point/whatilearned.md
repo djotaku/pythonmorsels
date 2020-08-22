@@ -28,3 +28,23 @@ For this particular problem, here is where I truly learned something. I didn't e
 
 This is one of the exercises that works really well to me as the proof of why Python Morsels is a really awesome exercise for improving the understanding of Pythonic code. As I said above - the algorithmic answer was easy. But it was not the best, most Pythonic code. Let's take a look at what I can change based on his official solution for the base problem.
 
+[After reading Trey's official solution for the base problem](https://github.com/djotaku/pythonmorsels/blob/2657eb8237455862199813b9a59ab6f9b7631609/point/point.py)
+
+There are two important things to point out here. The one I'm less excited about is in init:
+
+```python
+    def __init__(self, x: int, y: int, z: int):
+        self.x, self.y, self.z = x, y, z
+```
+
+Here Trey says we could have kept it the other way, but this way serves a function of code being its own documentation. It shows there's a relationship between the variables (they are a point in 3D space) rather than just 3 random variables.
+
+But the one I was more excited about was the equality function:
+
+```python
+    def __eq__(self, other):
+        return (self.x, self.y, self.z) == (other.x, other.y, other.z)
+```
+
+I've gone from 3 lines to just one. I already knew from previous exercises that often when dealing with a return, an "else" is redundant. So I didn't have that in my original solution. But I always forget that you can just do something like this because if it's true, it'll cause a return true.
+
