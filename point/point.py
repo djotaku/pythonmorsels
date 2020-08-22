@@ -1,8 +1,6 @@
 class Point:
     def __init__(self, x: int, y: int, z: int):
-        self.x = x
-        self.y = y
-        self.z = z
+        self.x, self.y, self.z = x, y, z
 
     def __add__(self, other):
         return Point(self.x+other.x, self.y+other.y, self.z+other.z)
@@ -17,9 +15,7 @@ class Point:
         return Point(other*self.x, other*self.y, other*self.z)
 
     def __eq__(self, other):
-        if other.x == self.x and other.y == self.y and other.z == self.z:
-            return True
-        return False
+        return (self.x, self.y, self.z) == (other.x, other.y, other.z)
 
     def __iter__(self):
         yield self.x

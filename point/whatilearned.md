@@ -23,3 +23,8 @@ For multiplication, I didn't think it would follow the same pattern because he d
 [Bonus 3 Solution](https://github.com/djotaku/pythonmorsels/blob/2fc99d0badfdf38108b904c61373940458645abd/point/point.py)
 
 For this particular problem, here is where I truly learned something. I didn't even have the first clue of what I needed to do to solve this bonus. So, off to hints land! This comes together with everything I've been learning so far with Trey and ties nicely with all the iteration, iterator, etc stuff he's been having us do! The solution is to do __iter__ and create a generator that gives the answers.
+
+## After Reading Trey's Official Solution
+
+This is one of the exercises that works really well to me as the proof of why Python Morsels is a really awesome exercise for improving the understanding of Pythonic code. As I said above - the algorithmic answer was easy. But it was not the best, most Pythonic code. Let's take a look at what I can change based on his official solution for the base problem.
+
