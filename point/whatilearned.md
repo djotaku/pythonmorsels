@@ -48,3 +48,5 @@ But the one I was more excited about was the equality function:
 
 I've gone from 3 lines to just one. I already knew from previous exercises that often when dealing with a return, an "else" is redundant. So I didn't have that in my original solution. But I always forget that you can just do something like this because if it's true, it'll cause a return true.
 
+His Bonus 1 solution didn't provide anything I hadn't already done. Roughly the same situation for Bonus 2. Where things got really neat was in the Bonus 3 solution. The creation of __iter__ allows for a lot of neat shortcuts everywhere you're using unpacking. I didn't refactor __add__ or __sub__ so this information didn't change my code, but it was neat. As I mentioned in my base solution, I had the intuitive idea that I could use dataclasses, but I didn't have any experience with them, so I didn't bother in order to see if I could get things working without using it. So here's the solution that's the more Pythonic while eliminating a lot of boiler plate code.
+
