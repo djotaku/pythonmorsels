@@ -50,3 +50,6 @@ I've gone from 3 lines to just one. I already knew from previous exercises that 
 
 His Bonus 1 solution didn't provide anything I hadn't already done. Roughly the same situation for Bonus 2. Where things got really neat was in the Bonus 3 solution. The creation of __iter__ allows for a lot of neat shortcuts everywhere you're using unpacking. I didn't refactor __add__ or __sub__ so this information didn't change my code, but it was neat. As I mentioned in my base solution, I had the intuitive idea that I could use dataclasses, but I didn't have any experience with them, so I didn't bother in order to see if I could get things working without using it. So here's the solution that's the more Pythonic while eliminating a lot of boiler plate code.
 
+[Solution using dataclasses](https://github.com/djotaku/pythonmorsels/blob/e87e4351ba4b15dce856d543d0575cad8978cb98/point/point.py)
+
+So now I'm able to eliminate __init__, __eq__, and __repr__. I'm also able to simplify the __iter__ method.
