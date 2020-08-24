@@ -3,6 +3,11 @@ def parse_ranges(string):
     iterable = []
     for item in ranges:
         number = item.split('-')
+        for thing in number:
+            try:
+                int(thing)
+            except:
+                number.remove(thing)
         for numeral in range(int(number[0]), int(number[-1])+1):
             iterable.append(numeral)
     print(iterable)
