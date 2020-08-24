@@ -6,7 +6,7 @@ def parse_ranges(string):
         for thing in number:
             try:
                 int(thing)
-            except:
+            except ValueError:
                 number.remove(thing)
         for numeral in range(int(number[0]), int(number[-1])+1):
             iterable.append(numeral)
