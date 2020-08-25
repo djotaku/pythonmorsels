@@ -1,6 +1,5 @@
 def parse_ranges(string):
     ranges = string.split(',')
-    iterable = []
     for item in ranges:
         number = item.split('-')
         for thing in number:
@@ -9,9 +8,7 @@ def parse_ranges(string):
             except ValueError:
                 number.remove(thing)
         for numeral in range(int(number[0]), int(number[-1])+1):
-            iterable.append(numeral)
-    print(iterable)
-    return iterable
+            yield numeral
 
 
 if __name__ == "__main__":
