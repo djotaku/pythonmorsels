@@ -8,7 +8,11 @@ As I mentioned in the commit, I spent a long time trying to figure out how to us
 
 ## Bonus 1
 
+[Bonus 1 Solution](https://github.com/djotaku/pythonmorsels/blob/b20d5460305c869cb325e29fdc601e9da5026bec/parse_ranges/parse_ranges.py)
+
 I think I had a solution that would work for Bonus 1, but the problem is that his unit test has an assertion from 100-1000000000000 and that was killing the computer. It's important to note that I ended up with Solutions Prime and Bonus 2 at once. Then Bonus 3 before I came back to Bonus 1. Essentially, if I could solve the list comprehension, then I could turn it into a generator and it would work - and should work for all solutions. 
+
+I just had to stare at it a bit longer and realize that all I had to do was create a yield where I would have appended. I'm very excited to have made that discovery and doubly so for having puzzled it out on my own. Still can't wait to see what the official solution is supposed to be because it certainly can't be this convoluted mess.
 
 ## Bonus 2
 
