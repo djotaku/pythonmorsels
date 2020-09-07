@@ -34,7 +34,7 @@ class IsAnagramTests(unittest.TestCase):
         self.assertFalse(is_anagram("a b c", "a b d"))
 
     # To test the Bonus part of this exercise, comment out the following line
-    @unittest.expectedFailure
+    # @unittest.expectedFailure
     def test_punctation_ignored(self):
         phrase1 = "A diet"
         phrase2 = "I'd eat"

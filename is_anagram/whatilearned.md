@@ -8,10 +8,14 @@ Things got off to a bad start when I accidentally confused anagrams with palindr
 
 ## Bonus 1
 
-
+[Bonus 1](https://github.com/djotaku/pythonmorsels/blob/39ed4e589fb405254bbbf539bf398d94f5ede399/is_anagram/anagram.py)
 
 This one wasn't too tough using replace. However, looking ahead to Bonus 2, I'm thinking regular expressions are going to be needed to keep things from getting ridiculous.
 
 ## Bonus 2
+
+
+
+I was right, regular expressions were needed here. As a bonus, it simplified things because it got rid of the need to get rid of spaces on their own.
 
 ## Bonus 3
