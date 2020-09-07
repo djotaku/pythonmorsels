@@ -26,7 +26,7 @@ class IsAnagramTests(unittest.TestCase):
         self.assertTrue(is_anagram("Listen", "silent"))
 
     # To test the Bonus part of this exercise, comment out the following line
-    @unittest.expectedFailure
+    # @unittest.expectedFailure
     def test_spaces_ignored(self):
         phrase1 = "William Shakespeare"
         phrase2 = "I am a weakish speller"
