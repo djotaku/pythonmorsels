@@ -14,8 +14,10 @@ This one wasn't too tough using replace. However, looking ahead to Bonus 2, I'm 
 
 ## Bonus 2
 
-
+[Bonus 2](https://github.com/djotaku/pythonmorsels/blob/3cdfa6f0be6ddda810cab9c805ba331c4554b372/is_anagram/anagram.py)
 
 I was right, regular expressions were needed here. As a bonus, it simplified things because it got rid of the need to get rid of spaces on their own.
 
 ## Bonus 3
+
+For this one I just went ahead with the hint because in the past (before Python 3.x and its embrace of UTF-8) I'd dealt with this by just dropping the non-latin characters. 

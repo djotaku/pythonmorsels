@@ -49,7 +49,7 @@ Hints for when you get stuck (hover over links to see what they're about):
 - Comparing strings case-insensitively
 - Ignoring spaces during comparisons
 - Removing punctuation characters from strings
-- Removing accents from characters
+- [Removing accents from characters](https://stackoverflow.com/questions/14682397/how-does-unicodedata-normalizeform-unistr-work/14682498#14682498)
 
 # Tests
 
