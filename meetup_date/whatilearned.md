@@ -12,6 +12,10 @@ So, interestingly, Trey says it will be tricky with just datetime, but I found i
 
 ## Bonus 1
 
+
+
+Bonus 1 was extremely easy. All I had to do was un-hardcode a few values. I suspect with bonus 2, things might get a bit trickier.
+
 ## Bonus 2
 
 ## Bonus 3
