@@ -1,4 +1,9 @@
 from datetime import date
+from collections import namedtuple
+
+weekday_tuple = namedtuple('Weekday', ['MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY'],
+                           defaults=[0, 1, 2, 3, 4, 5, 6])
+Weekday = weekday_tuple()
 
 
 def meetup_date(year, month, nth=4, weekday=3):
@@ -26,5 +31,5 @@ def meetup_date(year, month, nth=4, weekday=3):
 
 
 if __name__ == "__main__":
-    date = meetup_date(2020, 2, -1)
+    date = meetup_date(2018, 1, nth=1, weekday=Weekday.MONDAY)
     print(date)

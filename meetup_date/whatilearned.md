@@ -22,4 +22,8 @@ OK, things are getting ridiculous here. There is no way this is the right way to
 
 ## Bonus 3
 
+
+
+He said object, not class, so I'm guessing maybe a named tuple or extended dictionary? Looks like I was right. A namedTuple with default values turned out to provide a working solution for Bonus 3. However my code is bananas. Let's see what Trey actually recommends. 
+
 ## Trey's Solution
