@@ -12,11 +12,13 @@ So, interestingly, Trey says it will be tricky with just datetime, but I found i
 
 ## Bonus 1
 
-
+[My Bonus 1 Solution](https://github.com/djotaku/pythonmorsels/blob/7c482e6187a6cf6cecee6f69b8c48ddb85a6b3ca/meetup_date/meetup_date.py)
 
 Bonus 1 was extremely easy. All I had to do was un-hardcode a few values. I suspect with bonus 2, things might get a bit trickier.
 
 ## Bonus 2
+
+OK, things are getting ridiculous here. There is no way this is the right way to solve this - it's bonkers. But it works! Which, I think is the whole reason I'm doing these exercises. To learn the more elegant ways to program in Python.
 
 ## Bonus 3
 
