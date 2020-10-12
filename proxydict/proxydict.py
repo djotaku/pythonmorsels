@@ -15,3 +15,15 @@ class ProxyDict(Mapping):
 
     def __len__(self):
         return len(self.proxy_dictionary)
+
+    def __repr__(self):
+        # center_list = [f"{key}: '{value}'" for key, value in self.proxy_dictionary.items()]
+        # center = (', '.join(center_list))
+        center_list = []
+        for key, value in self.proxy_dictionary.items():
+            if isinstance(key, int):
+                center_list.append(f"{key}: '{value}'")
+            else:
+                center_list.append(f"'{key}': '{value}'")
+        center = (', '.join(center_list))
+        return "ProxyDict({"+center+"})"
