@@ -28,8 +28,46 @@ Completing the Base Problem also gave me the bonus 3 solution. As with bonus 1, 
 
 Boy, oh boy is there a lot to learn here. Looks like the reason I had 1 and 3 already done for me is that I jumped the gun on ABC vs his more naive solution, which is what I was trying to do before I thought about ABC (but couldn't remember what it was called) and looked at his hint. (Basically, if I could have intuited getitem method, I would have probably also started out with this naive method).
 
-### Todo
-- Cover last paragraph of bonus 1. (which is awesome!)
-- Cover better yielding (and add to my code as for future learning)
-- Cover better repr and add to my code for future learning
--  
+The biggest bombshell Trey drops is that there standard library already includes types.MappingProxyType so if you do:
+
+```python
+from types import MappingProxyType as ProxyDict
+```
+
+You're already done with the base solution. 
+
+For bonus 2, there are two things to cover: iter and repr.
+
+Thanks mostly to Trey's problem sets I knew that I wanted to use yield or that I probably wanted to do a generator. So I thought my solution was pretty good. As a reminder:
+
+```python
+    def __iter__(self):
+        return (key for key in self.proxy_dictionary.keys())
+``` 
+
+but it turns out there are two simpler things I could have done. Since I'm proxying a dict, which already has an iter method, I could have done:
+
+```python
+def __iter__(self):
+        yield from self.proxy_dictionary
+```
+or I could have done
+```python
+    def __iter__(self):
+        return iter(self.proxy_dictionary)
+``` 
+
+I actually think the first one is more readable. For the repr I kept thinking there must be some easier way to do this. Because the dictionary already has a repr. But I thought that would result in something like ProxyDict(dict(stuff)); apparently not. Because this is Trey's solution:
+
+```python
+def __repr__(self):
+        return f"ProxyDict({repr(self.proxy_dictionary)})"
+```  
+Although, that locks in the class name and causes issues if someone wants to do the same thing with our class. So the better way is:
+
+```python
+def __repr__(self):
+        return f"{type(self).__name__}({self.proxy_dictionary!r})"
+```
+
+the !r is the same as repr(self.proxy_dictionary)
