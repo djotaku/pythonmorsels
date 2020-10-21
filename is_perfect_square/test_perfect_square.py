@@ -35,8 +35,6 @@ class IsPerfectSquareTests(unittest.TestCase):
         self.assertFalse(is_perfect_square(square_number-1))
         self.assertFalse(is_perfect_square(square_number+1))
 
-    # To test the Bonus part of this exercise, comment out the following line
-    @unittest.expectedFailure
     def test_negative_numbers(self):
         square_number = -4
         self.assertFalse(is_perfect_square(square_number))
