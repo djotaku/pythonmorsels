@@ -6,9 +6,11 @@
 
 Trey began his problem statement this way: "This week I want you to write a function that might seem simple at first, but there's a number of ways to solve it." It definitely took some out of the box thinking for me to figure out how I was going to solve the base case. The math.sqrt() function returns a float so that it can give answers for non-perfect squares. So I kept thinking and I realized that any perfect, non-complex square root must be an integer. So I came up with the conditional to return. (And after all this Pythonic learning, I've learned not to evaluate for truth and then return a variable. Just return the evaluation)
 ## Bonus 1
-
+[Bonus 1 Solution ](https://github.com/djotaku/pythonmorsels/blob/9546bbdf74ca1675c9335d48d99440148f167bc5/is_perfect_square/perfect_square.py)
+Bonus 1 was trivial. Anyone who's done any amount of functional programming could figure it out.
 ## Bonus 2
 
+He mentioned in his intro that the second two bonuses would be hard. I think I can probably reason my way to a solution for bonus 3. I'm quite a bit rusty on complex numbers, but I think I can get my mind to remember. (Despite having an electrical engineering degree, I've rarely had to use it. Ended up becoming a programmer and then a boss in a programming shop) For this one, however, I had no idea why Python couldn't deal with large numbers. After all isn't Python the current darling of the scientific community now? So I clicked on the [first link related to this hint](https://stackoverflow.com/a/47854670/2633215). The Decimal answer didn't work. I wasn't ready to do gmpy2 yet. So I clicked on the [second link](https://pymotw.com/3/decimal/#local-context)
 ## Bonus 3
 
 ## After Reading Trey's Solution

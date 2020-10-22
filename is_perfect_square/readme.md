@@ -57,8 +57,8 @@ Hints
 Hints for when you get stuck (hover over links to see what they're about):
 
 - Solutions for the base problem
-- Bonus 2: square root of arbitrarily large numbers
-- Bonus 2: handling a large number of any size
+- [Bonus 2: square root of arbitrarily large numbers](https://stackoverflow.com/a/47854670/2633215)
+- [Bonus 2: handling a large number of any size](https://pymotw.com/3/decimal/#local-context)
 - Bonus 3: complex numbers in Python
 - Bonus 3: keyword-only arguments
 
