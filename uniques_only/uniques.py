@@ -1,9 +1,18 @@
+from collections.abc import Hashable
+
+
 def uniques_only(list_for_dedupe):
     deduped_list = []
+    deduped_set = set()
     for item in list_for_dedupe:
-        if item not in deduped_list:
-            deduped_list.append(item)
-            yield item
+        if isinstance(item, Hashable):
+            if item not in deduped_set:
+                yield item
+                deduped_set.add(item)
+        else:
+            if item not in deduped_list:
+                yield item
+                deduped_list.append(item)
 
 
 if __name__ == "__main__":
