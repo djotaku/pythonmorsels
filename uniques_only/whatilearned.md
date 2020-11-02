@@ -49,3 +49,4 @@ def uniques_only(iterable):
 
 And his Bonus 1 solution is basically the same as mine, but configured for the fact that he's using sets. Bonus 2 involves going back to my solution because it's dealing with non-hashables. That's why my first solution also worked for Bonus 2. Interestingly, the solution to bonus 3 is nothing clever or mind-bending. It's essentially using sets for hashables or lists for unhashables. So below will be my link for how I'd modify my code.
 
+[Solution Based on Trey's Solutions](https://github.com/djotaku/pythonmorsels/blob/08b9aa011efce6a2c12a378433cce9ae5cfa97a3/uniques_only/uniques.py)
