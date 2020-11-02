@@ -37,7 +37,7 @@ Hints for when you get stuck (hover over links to see what they're about):
 
 - Removing duplicates from a list
 - Some clever duplicate-removing code
-- Making a function that returns an iterator
+- [Making a function that returns an iterator](https://treyhunner.com/2018/06/how-to-make-an-iterator-in-python/)
 - What does hashable mean
 - Determining whether an item is hashable
 - Another way to determine hashabiltiy
