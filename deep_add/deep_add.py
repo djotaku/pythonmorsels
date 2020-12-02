@@ -14,7 +14,7 @@ def sums(iterable):
     return sum
 
 
-def deep_add(iterable):
+def deep_add(iterable, start=0):
     # print(f"The iterable {iterable}")
-    return sums(iterable)
+    return sums(iterable) + start
 

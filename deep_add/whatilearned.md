@@ -8,11 +8,15 @@ I thought there must be a way to collapse these lists. I thought about zip, but 
 
 ## Bonus 1
 
-[]()
+[Bonus 1 Solution](https://github.com/djotaku/pythonmorsels/blob/69c1f47fab6412dbec8d328ce59ec543c80e127e/deep_add/deep_add.py)
 
 This one wasn't too hard. I just had to change my check of list to Iterable.
 
 ## Bonus 2 
+
+[Bonus 2 Solution]()
+
+This one was EXTREMELY EASY. Like...too easy! I wonder what Trey's solution will be like.
 
 ## Bonus 3
 
