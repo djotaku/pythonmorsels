@@ -14,10 +14,12 @@ This one wasn't too hard. I just had to change my check of list to Iterable.
 
 ## Bonus 2 
 
-[Bonus 2 Solution]()
+[Bonus 2 Solution](https://github.com/djotaku/pythonmorsels/blob/7c1de27949c3f77570a0e7727b1e0d2e56edc142/deep_add/deep_add.py)
 
 This one was EXTREMELY EASY. Like...too easy! I wonder what Trey's solution will be like.
 
 ## Bonus 3
+
+This one took a bit of thinking. But, ultimately it wasn't too hard once I stepped away and came back to it. Basically, instead of just adding the start value at the end, I had to pass it in so that once I was in the function it could become a timedelta instead of 0. 
 
 ## Trey's Solution
