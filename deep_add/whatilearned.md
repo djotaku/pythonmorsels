@@ -8,6 +8,10 @@ I thought there must be a way to collapse these lists. I thought about zip, but 
 
 ## Bonus 1
 
+[]()
+
+This one wasn't too hard. I just had to change my check of list to Iterable.
+
 ## Bonus 2 
 
 ## Bonus 3
