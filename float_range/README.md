@@ -102,7 +102,7 @@ Here are some hints you can use when you get stuck:
 - Returning an iterator
 - Classes and object-oriented programming
 - Understanding iterators in detail
-- Returning length of custom object
+- [Returning length of custom object](https://stackoverflow.com/questions/15114023/using-len-and-def-len-self-to-build-a-class)
 - A reversible iterable
 - Implementing equality checks
 

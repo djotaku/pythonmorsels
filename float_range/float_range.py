@@ -43,6 +43,15 @@ class float_range:
         else:
             raise TypeError
 
+    def __len__(self):
+        pass
+
+    def __reversed__(self):
+        hold_start = self.start
+        self.start = self.stop
+        self.stop = hold_start
+        self.increment = - self.increment
+
 
 if __name__ == '__main__':
     for n in float_range(0.5, 2.5, 0.5):
@@ -51,3 +60,7 @@ if __name__ == '__main__':
         print(n)
     for n in float_range(3.0):
         print(n)
+    print(list(reversed(float_range(0.5, 2.5, 0.5))))
+    r = float_range(0.5, 2.5, 0.5)
+    print(list(r))
+    print(list(r))
