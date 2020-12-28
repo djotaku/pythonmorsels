@@ -97,7 +97,7 @@ False
 Here are some hints you can use when you get stuck:
 
 - [What are callables?](https://treyhunner.com/2019/04/is-it-a-class-or-a-function-its-a-callable/)
-- An example solution
+- [An example solution](https://stackoverflow.com/a/51676957/2633215)
 - Optional function arguments
 - Returning an iterator
 - Classes and object-oriented programming
