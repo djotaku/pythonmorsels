@@ -1,8 +1,16 @@
 class float_range:
-    def __init__(self, start=0.0, stop=0.0, increment=1.0):
-        self.start = start
-        self.stop = stop
-        self.increment = increment
+    def __init__(self, *parameters):
+        if len(parameters) == 3:
+            self.start, self.stop, self.increment = parameters
+        elif len(parameters) == 2:
+            self.start, self.stop = parameters
+            self.increment = 1.0
+        elif len(parameters) == 1:
+            self.stop = parameters[0]
+            self.start = 0.0
+            self.increment = 1.0
+        else:
+            raise TypeError
 
     def __iter__(self):
         return self
@@ -22,14 +30,24 @@ class float_range:
             else:
                 raise StopIteration
 
-    def __call__(self, start=0.0, stop=0.0, increment=1.0):
-        self.start = start
-        self.stop = stop
-        self.increment = increment
+    def __call__(self, *parameters):
+        if len(parameters) == 3:
+            self.start, self.stop, self.increment = parameters
+        elif len(parameters) == 2:
+            self.start, self.stop = parameters
+            self.increment = 1.0
+        elif len(parameters) == 1:
+            self.stop = parameters[0]
+            self.start = 0.0
+            self.increment = 1.0
+        else:
+            raise TypeError
 
 
 if __name__ == '__main__':
     for n in float_range(0.5, 2.5, 0.5):
         print(n)
     for n in float_range(2.5, 0, -0.5):
+        print(n)
+    for n in float_range(3.0):
         print(n)
