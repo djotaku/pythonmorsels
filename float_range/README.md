@@ -98,7 +98,7 @@ Here are some hints you can use when you get stuck:
 
 - [What are callables?](https://treyhunner.com/2019/04/is-it-a-class-or-a-function-its-a-callable/)
 - [An example solution](https://stackoverflow.com/a/51676957/2633215)
-- Optional function arguments
+- [Optional function arguments](https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions)
 - Returning an iterator
 - Classes and object-oriented programming
 - Understanding iterators in detail
